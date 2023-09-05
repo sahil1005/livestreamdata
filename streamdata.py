@@ -4,7 +4,7 @@ import pandas as pd
 import time
 
 # Power BI Streaming Dataset API endpoint
-api_url = "https://api.powerbi.com/beta/a60ff60c-87ca-4db4-9c69-a216da7a6487/datasets/e9e99bca-64a5-4300-962a-4b4faa08ef86/rows?experience=power-bi&key=5Dua0npoJGFyW6aPtcAF6tirWWPCHtHmG89aARKfWM6SgrTrlt1V5J8w0%2B8LyWWFLtFky5InuYBgBrx3muNMsQ%3D%3D"
+api_url = "https://api.powerbi.com/beta/a60ff60c-87ca-4db4-9c69-a216da7a6487/datasets/e9e99bca-64a5-4300-962a-4b4faa08ef86/rows?experience=power-bi&key=5Dua0npoJGFyW6aPtcAF6tirWWPCHtHmG89aARKfWM6SgrTrlt1V5J8w0%2B8LyWWFLtFky5InuYBgBrx3muNMsQ%3D%3Dss"
 
 # SQL Server connection settings
 server = 'DESKTOP-R8U2TTC\SQLEXPRESS'
