@@ -32,17 +32,17 @@ while True:
     data_records = sales_data.to_dict(orient='records')
 
 # Define your Power BI streaming dataset API endpoint
-    api_endpoint = 'https://api.powerbi.com/beta/a60ff60c-87ca-4db4-9c69-a216da7a6487/datasets/e9e99bca-64a5-4300-962a-4b4faa08ef86/rows?experience=power-bi&key=5Dua0npoJGFyW6aPtcAF6tirWWPCHtHmG89aARKfWM6SgrTrlt1V5J8w0%2B8LyWWFLtFky5InuYBgBrx3muNMsQ%3D%3D'
+    api_endpoint = 'https://api.powerbi.com/beta/a60ff60c-87ca-4db4-9c69-a216da7a6487/datasets/e9e99bca-64a5-4300-962a-4b4faa08ef86/rows?experience=power-bi&key=5Dua0npoJGFyW6aPtcAF6tirWWPCHtHmG89aARKfWM6SgrTrlt1V5J8w0%2B8LyWWFLtFky5InuYBgBrx3muNMsQ%3D%3Dss'
 
 # Acquire an Access Token using adal
-    authority_url = 'https://login.microsoftonline.com/a60ff60c-87ca-4db4-9c69-a216da7a6487'
+    authority_url = 'https://login.microsoftonline.com/a60ff60c-87ca-4db4-9c69-a216da7a6487ss'
     resource_url = 'https://analysis.windows.net/powerbi/api'
 
     context = adal.AuthenticationContext(authority_url)
     token = context.acquire_token_with_client_credentials(
     resource_url,
-    'da497272-9baa-4a42-bad0-f48b7e3f301c',
-    'FSq8Q~PzLobgKQkBWOeviFthxp1S86xFWscOOaas'
+    'da497272-9baa-4a42-bad0-f48b7e3f301css',
+    'FSq8Q~PzLobgKQkBWOeviFthxp1S86xFWscOOaasss'
 )
 
     api_token = token['accessToken']
